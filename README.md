@@ -1,3 +1,6 @@
+
+![1](https://github.com/user-attachments/assets/6c1c0a68-d9a0-481b-a8b2-251f6f72d12f)
+
 Nocturne Marketplace is a next-generation e-commerce platform designed for seamless shopping, featuring a modern UI, real-time search, and an intuitive browsing experience. Inspired by top-tier platforms like Amazon, Apple, and Samsung, it offers a smooth and dynamic user experience, making product discovery effortless.
 
 **🌟 Key Features**
