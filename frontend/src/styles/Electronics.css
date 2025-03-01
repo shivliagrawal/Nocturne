@@ -1,0 +1,82 @@
+/* Electronics.css */
+.electronics-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #422744;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Ensures title is centered */
+.electronics-title {
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    font-family: Georgia, serif;
+    color: azure;
+}
+
+/* Fixes grid layout */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+    max-width: 1000px; /* Limits grid width */
+}
+
+/* Ensures proper spacing and alignment */
+.product-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.2s ease-in-out;
+    width: 280px; /* Fix width */
+}
+
+/* Hover effect */
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+/* Product image styling */
+.product-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Text styles */
+.product-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.product-price {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* View button */
+.view-button {
+    display: inline-block;
+    padding: 8px 15px;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    background-color: #a1c2df;
+    border-radius: 5px;
+}
+
+.view-button:hover {
+    background-color: #555;
+}
